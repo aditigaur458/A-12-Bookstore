@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore novels, academic books and inspiring reads at A12 Bookstore. Browse our catalogue and send a book enquiry.">
+  <meta name="keywords" content="A12 Bookstore, books, novels, book catalogue">
+  <meta name="author" content="Aditi Gaur">
+  <title>A12 Bookstore | Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+
+:root{--ink:#263b38;--green:#315b55;--coral:#df795e;--cream:#fbf7ef;--gold:#e7b65c;--muted:#6b7772}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.6}
+.site-nav{background:var(--green)}.navbar-brand{letter-spacing:.3px}.hero-section{background:linear-gradient(120deg,#fbf3e7,#f4e5d5);overflow:hidden}
+.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:.75rem;font-weight:700;color:var(--coral)}.accent-text{color:var(--coral)}
+.btn-brand{background:var(--green);color:#fff;border:2px solid var(--green);border-radius:999px;padding:.7rem 1.35rem;transition:background-color .25s ease,transform .25s ease}
+.btn-brand:hover,.btn-brand:focus{background:var(--coral);border-color:var(--coral);color:#fff;transform:translateY(-2px)}
+.book-art{max-width:390px;margin:auto;background:#f7dfc4;border-radius:48% 52% 43% 57%;padding:1.2rem}.hero-svg{width:100%;height:auto}
+.section-heading h2{margin-top:.35rem}.soft-section{background:var(--cream)}
+.feature-card,.form-card{padding:1.5rem;border:1px solid #eee5d8;border-radius:1.1rem;background:#fff;box-shadow:0 8px 24px rgba(38,59,56,.06)}
+.feature-icon{font-size:2rem;margin-bottom:.6rem}.book-card{background:#fff;padding:1rem;border-radius:1rem;height:100%;box-shadow:0 5px 20px rgba(38,59,56,.05)}
+.book-cover{height:175px;border-radius:.55rem;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;font-weight:800;letter-spacing:1px;line-height:1.35;box-shadow:inset 7px 0 rgba(0,0,0,.12);transition:transform .25s ease}
+.book-cover:hover{transform:translateY(-5px) rotate(-1deg)}.cover-one{background:#315b55}.cover-two{background:#df795e}.cover-three{background:#344d72}.cover-four{background:#b88743}
+.text-link,.footer-link{color:var(--green);font-weight:700;text-decoration:none}.text-link:hover,.footer-link:hover{text-decoration:underline}
+.notice{background:#fff4df;border-left:4px solid var(--gold);padding:1rem;border-radius:.4rem;font-size:.9rem}
+.form-control,.form-select{border-color:#d9ded9;padding:.7rem .85rem}.form-control:focus,.form-select:focus{border-color:var(--green);box-shadow:0 0 0 .2rem rgba(49,91,85,.13)}
+.site-footer{background:var(--ink);color:#fff}.site-footer a{color:#f6d69d}.catalogue-table thead{background:var(--green);color:#fff}.catalogue-table th{white-space:nowrap}
+.stock{display:inline-block;background:#eaf4ed;color:#285a3a;border-radius:999px;padding:.2rem .65rem;font-size:.82rem}section{scroll-margin-top:80px}
+@media(max-width:767.98px){.hero-section .display-4{font-size:2.5rem}.book-art{max-width:290px}.book-cover{height:145px}.feature-card{padding:1.1rem}}
+@media(min-width:768px) and (max-width:991.98px){.hero-section .display-4{font-size:3rem}.book-art{max-width:310px}}
+
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark site-nav sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#home">📚 A12 Bookstore</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#catalogue">Book Catalogue</a></li>
+        <li class="nav-item"><a class="nav-link" href="#enquiry">Enquire</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="hero-section" id="home">
+  <div class="container py-5">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-7">
+        <span class="eyebrow">A little world of big stories</span>
+        <h1 class="display-4 fw-bold mt-2">Find a book.<br><span class="accent-text">Find a new world.</span></h1>
+        <p class="lead mt-3">From page-turning fiction to helpful academic reads, discover your next favourite book at A12 Bookstore.</p>
+        <div class="d-flex flex-wrap gap-2 mt-4">
+          <a class="btn btn-brand btn-lg" href="#catalogue">Explore books</a>
+          <a class="btn btn-outline-dark btn-lg" href="#enquiry">Ask about a book</a>
+        </div>
+      </div>
+      <div class="col-lg-5 text-center">
+        <div class="book-art" role="img" aria-label="Illustration of colourful books stacked together">
+          <svg viewBox="0 0 360 280" class="hero-svg" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="booksTitle">
+            <title id="booksTitle">Stack of colourful books</title>
+            <rect x="48" y="207" width="264" height="18" rx="9" fill="#d9c8ad"/>
+            <rect x="70" y="155" width="215" height="48" rx="7" fill="#df795e"/>
+            <rect x="88" y="162" width="9" height="34" rx="3" fill="#f7d9b5"/>
+            <rect x="112" y="108" width="190" height="43" rx="7" fill="#315b55"/>
+            <rect x="128" y="115" width="9" height="29" rx="3" fill="#f7d9b5"/>
+            <rect x="48" y="62" width="228" height="42" rx="7" fill="#e7b65c"/>
+            <rect x="68" y="69" width="9" height="28" rx="3" fill="#fff2d8"/>
+            <circle cx="260" cy="45" r="18" fill="#df795e"/>
+            <path d="M255 45h10M260 40v10" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="container py-5">
+    <div class="section-heading text-center mb-4">
+      <span class="eyebrow">Why readers choose us</span>
+      <h2 class="fw-bold">A better way to discover books</h2>
+      <p class="text-muted">A simple, friendly place for every kind of reader.</p>
+    </div>
+    <div class="row g-3">
+      <div class="col-md-4"><article class="feature-card h-100"><div class="feature-icon">🔎</div><h3 class="h5 fw-bold">Easy discovery</h3><p class="mb-0">Browse a clear catalogue and search for a title or author without confusion.</p></article></div>
+      <div class="col-md-4"><article class="feature-card h-100"><div class="feature-icon">📖</div><h3 class="h5 fw-bold">Books for everyone</h3><p class="mb-0">Explore fiction, personal growth and academic books in one place.</p></article></div>
+      <div class="col-md-4"><article class="feature-card h-100"><div class="feature-icon">💬</div><h3 class="h5 fw-bold">Quick enquiries</h3><p class="mb-0">Send us your book requirements through a simple enquiry form.</p></article></div>
+    </div>
+  </section>
+
+  <section class="soft-section py-5">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-end flex-wrap gap-2 mb-4">
+        <div><span class="eyebrow">Reader favourites</span><h2 class="fw-bold mb-0">Popular picks</h2></div>
+        <a href="#catalogue" class="text-link">View full catalogue →</a>
+      </div>
+      <div class="row g-3">
+        <div class="col-6 col-lg-3"><div class="book-card"><div class="book-cover cover-one">THE<br>ALCHEMIST</div><h3 class="h6 fw-bold mt-3">The Alchemist</h3><p class="small text-muted mb-0">Fiction · ₹299</p></div></div>
+        <div class="col-6 col-lg-3"><div class="book-card"><div class="book-cover cover-two">IKIGAI</div><h3 class="h6 fw-bold mt-3">Ikigai</h3><p class="small text-muted mb-0">Self-help · ₹250</p></div></div>
+        <div class="col-6 col-lg-3"><div class="book-card"><div class="book-cover cover-three">ATOMIC<br>HABITS</div><h3 class="h6 fw-bold mt-3">Atomic Habits</h3><p class="small text-muted mb-0">Self-help · ₹399</p></div></div>
+        <div class="col-6 col-lg-3"><div class="book-card"><div class="book-cover cover-four">WINGS<br>OF FIRE</div><h3 class="h6 fw-bold mt-3">Wings of Fire</h3><p class="small text-muted mb-0">Biography · ₹275</p></div></div>
+      </div>
+    </div>
+  </section>
+
+
+<section class="container py-5" id="catalogue">
+
+  <div class="mb-4"><span class="eyebrow">Browse and discover</span><h1 class="display-5 fw-bold">Our book catalogue</h1><p class="text-muted">Search by title, author or category. Prices shown are sample prices for this academic project.</p></div>
+  <div class="row g-2 mb-4">
+    <div class="col-md-8"><label class="visually-hidden" for="bookSearch">Search books</label><input class="form-control form-control-lg" id="bookSearch" type="search" placeholder="Search a book or author..."></div>
+    <div class="col-md-4"><label class="visually-hidden" for="categoryFilter">Filter category</label><select class="form-select form-select-lg" id="categoryFilter"><option value="all">All categories</option><option value="Fiction">Fiction</option><option value="Self-help">Self-help</option><option value="Biography">Biography</option><option value="Academic">Academic</option></select></div>
+  </div>
+  <div class="table-responsive">
+    <table class="table table-hover align-middle catalogue-table">
+      <caption class="caption-top">Sample book inventory at A12 Bookstore</caption>
+      <thead><tr><th scope="col">Book title</th><th scope="col">Author</th><th scope="col">Category</th><th scope="col">Price</th><th scope="col">Availability</th></tr></thead>
+      <tbody id="bookRows">
+        <tr data-category="Fiction"><td>The Alchemist</td><td>Paulo Coelho</td><td>Fiction</td><td>₹299</td><td><span class="stock">In stock</span></td></tr>
+        <tr data-category="Self-help"><td>Ikigai</td><td>Héctor García & Francesc Miralles</td><td>Self-help</td><td>₹250</td><td><span class="stock">In stock</span></td></tr>
+        <tr data-category="Self-help"><td>Atomic Habits</td><td>James Clear</td><td>Self-help</td><td>₹399</td><td><span class="stock">Limited</span></td></tr>
+        <tr data-category="Biography"><td>Wings of Fire</td><td>A. P. J. Abdul Kalam</td><td>Biography</td><td>₹275</td><td><span class="stock">In stock</span></td></tr>
+        <tr data-category="Academic"><td>Introduction to Algorithms</td><td>Thomas H. Cormen et al.</td><td>Academic</td><td>₹650</td><td><span class="stock">On request</span></td></tr>
+        <tr data-category="Fiction"><td>Animal Farm</td><td>George Orwell</td><td>Fiction</td><td>₹199</td><td><span class="stock">In stock</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p id="noResults" class="text-muted d-none" role="status">No books match your search.</p>
+  <section class="soft-section rounded-4 p-4 mt-5">
+    <div class="row align-items-center g-3">
+      <div class="col-md-8"><h2 class="h3 fw-bold">Could not find your book?</h2><p class="mb-md-0">Send us an enquiry and tell us what you are looking for.</p></div>
+      <div class="col-md-4 text-md-end"><a href="#enquiry" class="btn btn-brand">Make an enquiry</a></div>
+    </div>
+  </section>
+
+</section>
+
+  <section class="container py-5" id="enquiry">
+    <div class="row g-4 align-items-start">
+      <div class="col-lg-5">
+        <span class="eyebrow">We would love to help</span>
+        <h2 class="fw-bold">Looking for a particular book?</h2>
+        <p class="text-muted">Share your details and book preference. This demo stores your enquiry in your browser so you can see how the feature works.</p>
+        <div class="notice">Your information stays in this browser demo. Do not enter sensitive personal information.</div>
+      </div>
+      <div class="col-lg-7">
+        <form id="enquiryForm" class="form-card needs-validation" novalidate>
+          <div class="row g-3">
+            <div class="col-md-6"><label for="customerName" class="form-label">Full name</label><input class="form-control" id="customerName" name="customerName" type="text" placeholder="Your name" required><div class="invalid-feedback">Please enter your name.</div></div>
+            <div class="col-md-6"><label for="email" class="form-label">Email address</label><input class="form-control" id="email" name="email" type="email" placeholder="name@example.com" required><div class="invalid-feedback">Enter a valid email.</div></div>
+            <div class="col-md-6"><label for="phone" class="form-label">Phone number</label><input class="form-control" id="phone" name="phone" type="tel" pattern="[0-9+\-\s]{8,15}" placeholder="Your phone number" required><div class="invalid-feedback">Enter a valid phone number.</div></div>
+            <div class="col-md-6"><label for="quantity" class="form-label">Quantity</label><input class="form-control" id="quantity" name="quantity" type="number" min="1" max="20" value="1" required></div>
+            <div class="col-md-6"><label for="neededBy" class="form-label">Required by</label><input class="form-control" id="neededBy" name="neededBy" type="date"></div>
+            <div class="col-md-6"><label for="category" class="form-label">Book category</label><select class="form-select" id="category" name="category" required><option value="">Choose one</option><option>Fiction</option><option>Academic</option><option>Self-help</option><option>Biography</option><option>Other</option></select><div class="invalid-feedback">Choose a category.</div></div>
+            <div class="col-12"><label for="bookTitle" class="form-label">Book title / author</label><input class="form-control" id="bookTitle" name="bookTitle" type="text" placeholder="What are you looking for?" required><div class="invalid-feedback">Please tell us which book you need.</div></div>
+            <div class="col-12"><label for="message" class="form-label">Additional message</label><textarea class="form-control" id="message" name="message" rows="3" placeholder="Any other details?"></textarea></div>
+            <div class="col-12"><div class="form-check"><input class="form-check-input" type="checkbox" id="consent" required><label class="form-check-label" for="consent">I agree to be contacted about this enquiry.</label><div class="invalid-feedback">Please confirm before submitting.</div></div></div>
+            <div class="col-12"><button class="btn btn-brand" type="submit">Submit enquiry</button><p id="formMessage" class="small mt-3 mb-0" aria-live="polite"></p></div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer py-4"><div class="container d-flex flex-wrap justify-content-between gap-2"><span>© 2026 A12 Bookstore</span><span>Made for readers, by readers.</span></div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+
+document.addEventListener("DOMContentLoaded", () => {
+  const search = document.getElementById("bookSearch");
+  const filter = document.getElementById("categoryFilter");
+  const rows = document.querySelectorAll("#bookRows tr");
+  const noResults = document.getElementById("noResults");
+  function filterBooks() {
+    const term = search.value.trim().toLowerCase();
+    const category = filter.value;
+    let visible = 0;
+    rows.forEach(row => {
+      const matchesText = row.textContent.toLowerCase().includes(term);
+      const matchesCategory = category === "all" || row.dataset.category === category;
+      const show = matchesText && matchesCategory;
+      row.classList.toggle("d-none", !show);
+      if (show) visible++;
+    });
+    noResults.classList.toggle("d-none", visible !== 0);
+  }
+  if (search && filter) {
+    search.addEventListener("input", filterBooks);
+    filter.addEventListener("change", filterBooks);
+  }
+  const form = document.getElementById("enquiryForm");
+  if (form) {
+    const message = document.getElementById("formMessage");
+    form.addEventListener("submit", event => {
+      event.preventDefault();
+      if (!form.checkValidity()) {
+        form.classList.add("was-validated");
+        message.textContent = "Please check the highlighted fields and try again.";
+        message.className = "small mt-3 text-danger";
+        return;
+      }
+      const enquiry = {
+        name: document.getElementById("customerName").value.trim(),
+        email: document.getElementById("email").value.trim(),
+        phone: document.getElementById("phone").value.trim(),
+        quantity: document.getElementById("quantity").value,
+        neededBy: document.getElementById("neededBy").value,
+        category: document.getElementById("category").value,
+        bookTitle: document.getElementById("bookTitle").value.trim(),
+        message: document.getElementById("message").value.trim(),
+        submittedAt: new Date().toISOString()
+      };
+      const saved = JSON.parse(localStorage.getItem("a12BookEnquiries") || "[]");
+      saved.push(enquiry);
+      localStorage.setItem("a12BookEnquiries", JSON.stringify(saved));
+      message.textContent = "Thank you! Your demo enquiry has been saved in this browser.";
+      message.className = "small mt-3 text-success";
+      form.reset();
+      form.classList.remove("was-validated");
+    });
+  }
+});
+
+</script>
+</body>
+</html>
